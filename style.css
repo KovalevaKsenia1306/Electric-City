@@ -1,0 +1,99 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.catalogtovar,
+.catalogtovar1 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short_description {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.description {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+     text-align: left;
+}
+
+.specifications ul{
+    list-style-image: url(img/icons.svg);
+}
+
+input {
+	margin-top: 10px;
+	width: 525px;
+	height: 30px; 
+	text-transform: capitalize;
+}
+
+input::first-letter {
+	font-size: 2em;
+}
+
+p::first-letter {
+	font-style: italic;
+    font-weight: 700;
+}
+
+.email {
+	color: red;
+}
+.container {
+	width: 100%;
+	text-align: center;
+    height: 350px;
+}
+
+footer{
+    background-color: plum;
+    height: 50px;
+}
+
+.link {
+    color:black;
+}
+
+.link:hover {
+    color:blueviolet;
+}
+
+li {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.header li {
+	display: inline-block;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 50px;
+    background-image: url(img/1614339759_76-p-svetlo-sirenevii-fon-93.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+	display: flex;
+    align-items: flex-end;
+}
+
+.logo {
+	margin-right: 1px;
+	display: flex;
+	align-items: center;
+}
